@@ -66,7 +66,7 @@ static const char unknown_str[] = "n/a";
 	/* function format          argument */
 	{ keymap, "[%s] ", NULL }, 
 /*	{ cpu_perc,	"[CPU  %s%%] ",	NULL }, */
-	{ ram_perc,	"[RAM  %s%%] ",	NULL },
+/*	{ ram_perc,	"[RAM  %s%%] ",	NULL }, */
 	{ run_command, "[ %4s] ", "amixer sget Master | awk -F\"[][]\" '/%/ { print $2 }' | head -n1" },
 	{ datetime, "%s",           "%d.%m.%Y %R" },
 };
